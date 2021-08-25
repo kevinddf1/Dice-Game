@@ -15,4 +15,4 @@ var result;
 if(randomNumber1>randomNumber2){result = "Player 1 wins";}
 else if(randomNumber1<randomNumber2){result = "Player 2 wins";}
 else{result = "draw";}
-document.querySelector("h1").innerHTML = result;
+document.querySelector("h1").innerHTML = "🎲"+result;
